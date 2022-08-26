@@ -46,8 +46,6 @@ Durante as aulas da Awari aprendi a utilizar bibliotecas como BeautifulSoup e Se
 
             resultados = driver.find_elements_by_class_name('jobs-search-results-list')
 
-            print(f'Número de resultados {len(resultados)}')
-            print(f'Número de descrições que foram salvas {len(lista_descricao)}')
 
             # Critério de saída do While
             if len(lista_descricao) == len(resultados):
